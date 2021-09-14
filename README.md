@@ -1,4 +1,4 @@
-# chchong.github.io
+# Portfolio
 
 Personal Website Portfolio
 
@@ -10,6 +10,8 @@ Version 2 - Dynamic website build with Javascript coding and features expansion.
 Version 3 - Dynamic website build with backend framework
 
 The current meta webpage will be further improved with the basic W3.CSS.
+
+Live website: [cchsing.github.io/portfolio]
 
 ## Welcome to GitHub Pages
 
@@ -45,7 +47,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cchsing/chchong.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/cchsing/portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
