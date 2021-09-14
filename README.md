@@ -11,7 +11,7 @@ Version 3 - Dynamic website build with backend framework
 
 The current meta webpage will be further improved with the basic W3.CSS.
 
-Live website: [cchsing.github.io/portfolio]
+Live website: [https://cchsing.github.io/portfolio]
 
 ## Welcome to GitHub Pages
 
