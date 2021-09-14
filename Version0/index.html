@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Justin Chong, Developer + Physics Graduate</title>
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  	<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="scripts/script.js" defer></script>
+  </head>
+
+  <body>
+
+    <main>
+
+  <!-- ************* ABOUT / PROFILE 
+    ******************************************************************************************************************* -->
+      <header>
+        <div class="content-wrap">
+          <h1>Chong Chia Hsing</h1>
+          <h2>System Engineer, Developer, Physics Graduate</h2>
+
+          <p>I'm a system engineer working at 
+            Sermax Automation Sdn. Bhd. in Shah Alam, Selangor, Malaysia.</p>
+        </div>
+        <!-- <div class="siteheader"></div> -->
+      </header>
+      <!--
+        need to change the navigation menu  structure
+      -->
+      <nav class="menu">
+        <div class="menu-top">
+          <ul class="menu-items">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#work-experience">Work Exp.</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="menu-bottom">
+          <p style="color: white; border-bottom-color: white; 
+          border-bottom-style:solid; border-bottom-color: white;">Projects</p>
+          <ul class="menu-items">
+            <li><a href="pages/projects/completed.html">Completed</a></li>
+            <li><a href="pages/projects/ongoing.html">Ongoing</a></li>
+            <li><a href="pages/projects/newIdeas.html">New Ideas</a></li>
+          </ul>
+        </div>
+      </nav>
+
+  <!-- ********* PROJECT / PORTFOLIO 
+    *************************************************************************************************************************** -->
+      <section id="projects" class="projects">
+        <div class="content-wrap divider">
+          <h2>Featured Projects</h2>
+            <!-- Project 1 -->
+          <section class="project-item">
+            <img src="images/CoaxialDielectricMeasure.png" alt="University Project Thumbnail">
+            <h3>Diselectric Characterisation of Foamed Concrete for Density and Compressive Strength Evaluation</h3>
+            <h4>May 2018 - May 2019</h4>
+            <p>This thesis reports on the dielectric characterization of the lightweight foamed concrete
+            and the relation of the three variables: density, dielectric constant, and compressive
+            strength. The mathematical model used for the dielectric characterization of the
+            concrete is Jonscher model and the goodness of fit of this model with the measurement
+            is high with the R-square value reaching as high as 0.9 and above. The relationship
+            between density and dielectric constant is simple linear equation. On the other hand,
+            the mathematical relation between density with compressive strength and dielectric
+            constant with compressive strength show a power-law relation with the power value
+            reaching 3.89 and 2.4 respectively. It should worth noting that this is a cursory study
+            for its related field and further exploration should focus on the development in the
+            variety of mathematical models that could be used in the dielectric constant conversion
+            as the model used in this study is capacitance model only. In addition, the software or
+            programming of the instrument could also be improved with the transferring of control
+            to computer. Lastly, the other structural variables of lightweight foamed concrete
+            could be included in the analysis.</p>
+            <a class="btn" href="documents/FYPReport.pdf">PDF</a>
+            <a class="btn" href="http://eprints.utar.edu.my/id/eprint/3369">UTAR Institutional Repository</a>
+          </section>
+
+            <!-- Project 2 -->
+          <section class="project-item">
+
+            <h3>LONGI Solar Cell Manufacturing Plant Phase 3 SCADA Development</h3>
+            <h4>Dec 2019 – Jan 2020</h4>
+            <p>Creation of SCADA for the Gas Detectors System (GDS), Gas Management System (GMS), and Chemical Management System (CMS)
+            with the use of Wonderware Intouch 2017. The GDS and GMS are build into one SCADA program while CMS is build as its own
+            SCADA program and host on its own Local PC.</p>
+            <p>GDS consists of graphical display for all the gas detectors (Honeywell Midas) and
+            data logging for all its process values. On the other hand, GMS displays all the information obtained from the equipment
+            Valve Manifold Box (VMB), Valve Distribution Box (VDB), and Bulk Specialty Gas System (BSGS) through Modbus TCP communication.
+            SCADA for GDS could issues maintenance and set-point value to the gas detector while command for GMS is remote shutdown
+            trigger.</p>
+            <p>SCADA for CMS only serves to monitor the statuses and alarms reporting for the information obtained from the CMS (third party
+            equipment). The information are obtained using the Modbus TCP and graphics are replicated from the local control panel to the
+            SCADA system.</p>
+
+          </section>
+            <!-- Project 3 -->
+          <section class="project-item">
+            <h3>Air Products Gas Detector Control Panel</h3>
+            <h4>Sep 2020</h4>
+            <p>Programming of Zelio Logic Smart Relay for controlling the alarm reporting responses at the local control panel. 
+              The responses are alarm indicator light, revolving light, buzzer, and flashing light. 5 possible alarms 
+              condition and 2 categories of alarms which are non-critical and critical alarms.</p>
+          </section>
+
+          <section class="project-item">
+            <h3>ALSg J3 Helium Trans-filling System</h3>
+            <h4>Oct 2020 – Apr 2021</h4>
+            <p>The creation of a quality control system for gases. Gases are pass through the Servomex analyzers and 
+              AGC NovaCHROM for the quality testing. The results of the analysis are recorded accordingly. 
+              Siemens SIMATIC PLC (S7-1200) and HMI (MTP1000) are used for the system.</p>
+            <h4>Other Creators</h4>
+            <a href="https://www.linkedin.com/in/zoe-sern-chua-78838a15b/" class="btn">Chua Zoe Sern</a>
+            <p style="display:inline-block">- Responsible for the HMI graphical interface programming.</p>
+          </section>
+          <section class="project-item">
+            <h3>Merdeka 118 District Cooling System</h3>
+          </section>
+          <section class="project-item">
+            <h3>Personal Project 001: Website Development</h3>
+          </section>
+        </div>
+
+      </section>
+
+  <!-- ******* WORK EXPERIENCE 
+    *********************************************************************************************************************************************************************** -->
+      <section id="work-experience" class="work-experience item-details">
+        <div class="content-wrap divider">
+          <h2>Work Experience</h2>
+
+          <!-- Job 1 -->
+          <secion class="job-item">
+            <div class="job-details">
+              <h3>System Engineer</h3>
+              <p>Sermax Automation Sdn. Bhd.</p>
+              <p>June 2019 - Current</p>
+            </div>
+            <div class="job-summary">
+              <p>Program development for the PLC and SCADA system. Involved in more than 4 projects ranging from
+                maintenance on legacy hardware to new system development using prioprietary platform i.e. Siemens
+                SIMATIC Step 7, ABB 800xA, AVEVA Intouch HMI, and ABB Panel Builder 800.</p>
+              <p>Roles and Responsibilities:</p>
+              <ul>
+                <li>Responsible to carry out all programming works including but not limited to PLC system and SCADA, i.e. SQL
+                database system setup, VS .NET programming, C/C++ programming.</li>
+                <li>Responsible for design, documentation and submission, site supervision, system troubleshooting and testing, and
+                site commissioning.
+                  <ul>
+                    <li>System design consists of generation of functional specification and graphical specification which
+                      may aid in the subsequent programming effort. UML notation will be used for the design phase, for example,
+                      the UML Clas Diagram, UML Use Cases Diagram, UML Sequence Diagram, and UML Activity Diagram.</li>
+                    <li>The generation of technical documents would also be used for submission to both the customer
+                      approval and internal ISO documentation requirement.</li>
+                    <li>Site commissioning involves setting up and installation of the system at the customer site. Acceptance
+                      test and troubleshooting will be performed for final deployment and operation initialization which would also include
+                      operation training for the site engineers and operators.</li>
+                  </ul>
+                </li>
+                <li>Responsible for technical liaison with the sales and marketing department for after-sales support in continuous maintenance
+                  services and engineering troubleshooting.</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Job 2 -->
+
+          <!-- Job 3 -->
+
+
+        </div>
+      </section>
+
+  <!-- ********* EDUCATION / CERTIFICATES 
+    *************************************************************************************************************************************************************************************** -->
+      <section id="education" class="education item-details">
+        <div class="content-wrap">
+          <h2>Education</h2>
+
+          <section class="education-item">
+            <h3><a href="https://www.utar.edu.my/" target="_blank">Universiti Tunku Abdul Rahman (UTAR)</a> - Bandar Sungai Long, Malaysia</h3>
+            <p>Bachelor of Science (Honours) Physics, 2016-2019</p>
+            <a href="documents/degreescan.pdf" class="btn">PDF</a>
+          </section>
+
+          <section class="education-item">
+            <h3>Sekolah Menengah Kebangsaan Kuala Kubu Bharu - Kuala Kubu Bharu, Malaysia</h3>
+            <p>Sijil Tinggi Persekolahan Malaysia (STPM), 2014-2015</p>
+          </section>
+
+        </div>
+      </section>
+      <!-- <section id="certificates" class="certificates item-details">
+        <div class="content-wrap">
+          <h2>Certificates</h2>
+          <section>
+            
+          </section>
+        </div>
+      </section> -->
+  <!-- ******* CONTACT INFO / SOCIAL MEDIA 
+    ******************************************************************************************************************************************************************************************* -->
+      <footer>
+        <div class="content-wrap">
+          <h2>Contact Me</h2>
+          <!-- Social Media and contact links.-->
+
+          <ul id="contact" class="contact-list">
+            <li><a href="mailto:jcch950607@gmail.com">jcch950607@gmail.com</a></li>
+            <li><a href="http://justinchongch.com" target="_blank">justinchongch.com</a></li>
+            <li><a href="https://twitter.com/JAoro" target="_blank" class="icon fa-twitter">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/chchong5679/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </div>
+      </footer>
+
+    </main>
+
+  </body>
+
+</html>
