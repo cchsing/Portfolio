@@ -13,7 +13,7 @@ The current meta webpage will be further improved with the basic W3.CSS.
 
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/cchsing/chchong.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/cchsing/portfolio/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
