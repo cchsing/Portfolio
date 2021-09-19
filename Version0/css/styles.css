@@ -126,10 +126,13 @@ _________________________________________________________*/
   width: inherit;
   border-bottom: 2px solid white;
 }
+.menu-top {
+  position: sticky;
+  top: 0;
+}
 .menu-bottom {
   position: fixed;
   bottom: 0;
-  left: 0;
 }
 .menu-bottom .menu-items a {
   text-decoration: none;
