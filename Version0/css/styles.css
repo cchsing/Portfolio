@@ -54,7 +54,6 @@ h2 {
   font-weight: 400;
   margin: 0;
 }
-
 .content-wrap {
   max-width: 800px;
   width: 85%;
@@ -88,12 +87,25 @@ h3 {
 .btn:hover {
   background: rgba(165, 166, 179, 0.8);
 }
+/*Grid setting
+_________________________________________________________*/
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'menu main main main main main'
+  'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #000000;
+  padding: 10px;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: footer; }
 /*navigation manu
 ---------------------------------*/
 .menu {
-  float: left;
-  display: block;
-  position: fixed;
   height: 100%;
   max-width: 200px;
   width: 10%;
