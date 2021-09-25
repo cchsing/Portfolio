@@ -1,11 +1,13 @@
 class project {
     constructor(
+        id,
         name,
         startdate,
         enddate,
         description,
         creators = []
     ) {
+        this.id = id;
         this.name = name;
         this.startdate = startdate;
         this.enddate = enddate;
