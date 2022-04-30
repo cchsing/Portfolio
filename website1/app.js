@@ -15,7 +15,7 @@ function PageTransition(){
     //Section Active Class
     allSections[0].addEventListener('click', (Event) =>{
         const id = Event.target.dataset.id
-        console.log(id)
+        // console.log(id)
         if(id){          
             //hide other sections
             sections.forEach((section) =>{
@@ -24,7 +24,7 @@ function PageTransition(){
             const element = document.getElementById(id);
             element.classList.add('active');
         }
-        console.log(Event.target)
+        // console.log(Event.target)
     })
 }
 
