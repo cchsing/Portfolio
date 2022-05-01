@@ -14,6 +14,9 @@
     --box-shadow-1: 0 3px 15px rgb(0,0,0,.3);
 }
 
+.section{
+    background-color: var(--color-primary);
+}
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
