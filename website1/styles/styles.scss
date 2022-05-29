@@ -260,16 +260,16 @@ section{
         text-align: center;
         padding: 3.5rem 0;
         position: relative;
-        // background-color: var(--color-secondary);
-        // &::before{
-        //     content: ' ';
-        //     left: 10%;
-        //     top: 0;
-        //     width: 40%;
-        //     height: 5px;
-        //     background-color: var(--color-secondary);
-        //     transform: translateX(-50%);
-        // }
+        &::before{
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 40%;
+            height: 1px;
+            background-color: var(--color-grey-5);
+            transform: translateX(-50%);
+        }
     }    
     .progress-bars{
         display: grid;
@@ -329,6 +329,16 @@ section{
         text-align: center;
         padding: 3.5rem 0;
         position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 40%;
+            height: 1px;
+            background-color: var(--color-grey-5);
+            transform: translateX(-50%);
+        }
     }
     .timeline-items{
         display: grid;
@@ -388,7 +398,6 @@ section{
     text-align: center;
 
 }
-
 .portfolio-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -457,6 +466,44 @@ section{
 .portfolio-item:hover .hover-item{
     opacity: 1;
     transform: scale(1);
+}
+
+// Blogs Section
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    .blog{
+        position: relative;
+        background-color: var(--color-grey-5);
+        border-radius: 5px;
+        box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+        transition: all 1s ease-in-out;
+        &:hover{
+            box-shadow: 1px 1px 20px rgba(0,0,0,.3);
+            transform: translateY(-5px);
+            img{
+                filter: grayscale(0);
+                transform: scale(1.1);
+                box-shadow: 1px 4px 10px rgba(0,0,0,.8);
+            }
+        }
+        img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            filter: grayscale(100%);
+            transition: all .5s ease-in-out;
+        }
+        .blog-text{
+            margin-top: -7px;
+            padding: 1.1rem;
+            border-top: 8px solid var(--color-secondary);
+        }
+    }
 }
 
 /*Independent components*/
