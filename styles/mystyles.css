@@ -20,20 +20,17 @@
 
 .sec1 {
   display: none;
-  -webkit-transform: translateY(0) scale(1);
-          transform: translateY(0) scale(1);
+  transform: translateY(0) scale(1);
 }
 
 .sec2 {
   display: none;
-  -webkit-transform: translateY(0) scale(1);
-          transform: translateY(0) scale(1);
+  transform: translateY(0) scale(1);
 }
 
 .sec3 {
   display: none;
-  -webkit-transform: translateY(0) scale(1);
-          transform: translateY(0) scale(1);
+  transform: translateY(0) scale(1);
 }
 
 .active {
@@ -41,26 +38,19 @@
   -webkit-animation: scaleAnim 1s ease-in-out;
           animation: scaleAnim 1s ease-in-out;
 }
-
 @-webkit-keyframes scaleAnim {
   0% {
-    -webkit-transform: translateY(-100%) scale(0);
-            transform: translateY(-100%) scale(0);
+    transform: translateY(-100%) scale(0);
   }
   100% {
-    -webkit-transform: translateY(0%) scale(1);
-            transform: translateY(0%) scale(1);
+    transform: translateY(0%) scale(1);
   }
 }
-
 @keyframes scaleAnim {
   0% {
-    -webkit-transform: translateY(-100%) scale(0);
-            transform: translateY(-100%) scale(0);
+    transform: translateY(-100%) scale(0);
   }
   100% {
-    -webkit-transform: translateY(0%) scale(1);
-            transform: translateY(0%) scale(1);
+    transform: translateY(0%) scale(1);
   }
-}
-/*# sourceMappingURL=mystyles.css.map */
+}/*# sourceMappingURL=mystyles.css.map */
